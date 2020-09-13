@@ -1,0 +1,479 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color:#2B2B2B;
+    max-width: 1280px;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Myriad Pro;
+}
+
+.fz-24 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+    font-family: Poppins;
+    margin-top: 16px;
+    color: #333333;
+}
+
+.fz-36 {
+    font-size: 36px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.mt-12 {
+    margin-top: 12px;
+    height: 40px;
+}
+
+.c-white {
+    color: #fff;
+} 
+
+.header {
+    width: 100%;
+    height: 620px;
+    margin: 0 auto;
+    background-image: url(../img/header.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav {
+    width: 960px;
+    height: 64px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-ttl {
+    width: 100%;
+    height: 100%;
+    line-height: 1.4;
+    font-family: Myriad Pro;
+}
+
+.bar {
+    width: 32px;
+}
+
+.bar-top,
+.bar-middle,
+.bar-bottom {
+    display: block;
+    content: '';
+    border: 1px solid #fff; 
+    margin-bottom: 8px;
+}
+
+.bar-bottom {
+    margin: 0;
+}
+
+.main-ttl {
+    font-family: Myriad Pro,sans-serif;
+    font-size: 120px;
+    line-height: 1.4;
+    position: absolute;
+    top: 216px;
+    left: 511px;
+    letter-spacing: 0;
+}
+
+.sub-ttl {
+    font-family: ヒラギノ角ゴ Pro,W3,sans-serif;
+    width: 192px;
+    height: 16px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    word-spacing: 4px;
+    line-height: 1.68;
+    position: absolute;
+    top: 360px;
+    left: 549px;
+}
+
+.sub-ttl::before,
+.sub-ttl::after {
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    content: "";
+    border: 1px solid #fff;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.sub-ttl::before{
+    margin-left: 0;
+}
+
+.sub-ttl::after {
+    margin-right: 0;
+}
+
+.main {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.concept-wrapper {
+    height: 800px;
+}
+
+.concept-ttl {
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.52;
+    padding-top: 80px;
+}
+
+.concept-after::after {
+    content: '';
+    width: 40px;
+    display: block;
+    border-bottom: 1px solid #2b2b2b;
+    position: absolute;
+    top: 155px;
+    left: 460px; 
+}
+
+.concept-txt {
+   text-align: center;
+   line-height: 1.8;
+   font-size: 16px;
+   letter-spacing: 1.4;
+   color: #2b2b2b;
+   font-family: Myriad Pro,sans-serif;
+   width: 576px;
+   height: 84px;
+   margin: 50px auto 40px;
+}
+
+.concept-img {
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.concept-bb-bottom {
+    width: 1280px;
+    height: 240px;
+    transform: translate(-160px, -160px);
+    background-color: #EDEDED;
+}
+
+.work{
+    width: 100%;
+    height: 1907px;
+    position: relative;
+}
+
+.work-after::after {
+    content: '';
+    width: 40px;
+    display: block;
+    border-bottom: 1px solid #2b2b2b;
+    position: absolute;
+    top: 155px;
+    left: 460px; 
+}
+
+.work-wrapper {
+    position: relative;
+}
+
+.gift-wrapper {
+    width: 420px;
+    height: 640px;
+}
+
+.decoration-wrapper {
+    width: 420px;
+    height: 849px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+.wedding-wrapper {
+    width: 420px;
+    height: 969px;
+    position: absolute;
+    top: 640px;
+    left: 0;
+}
+
+.for_yourself-wrapper {
+    width: 420px;
+    height: 640px;
+    position: absolute;
+    top: 969px;
+    right: 0;
+}
+
+.gift-txt,
+.decoration-txt,
+.wedding-txt, 
+.for_yourself-txt {
+    color: #2B2B2B;
+    line-height: 1.75;
+    font-family: Myriad Pro;
+}
+
+.florist {
+    position: relative;
+}
+
+
+.florist-after::after {
+    content: '';
+    width: 40px;
+    display: block;
+    border-bottom: 1px solid #2b2b2b;
+    position: absolute;
+    top: 155px;
+    left: 620px; 
+}
+
+.florist_concept-wrapper {
+    width: 1280px;
+    height: 374px;
+    transform: translatex(-160px);
+    background-color: #EDEDED;
+}
+
+
+.florist-wrapper_img {
+    width: 960px;
+    height: 380px;
+    display: flex;
+    z-index: 1;
+    transform: translateY(-90px);
+}
+
+ .shiyu-wrapper,
+ .mao-wrapper,
+ .omichan-wrapper{
+    width: 300px;
+    height: 180px;
+    margin-right: 30px;
+}
+
+.florist-img:last-child {
+    margin-right: 0;
+}
+
+.shiyu-txt,
+.mao-txt,
+.omichan-txt {
+    color: #2B2B2B;
+    line-height: 1.75;
+    font-family: Myriad Pro;
+}
+
+.shop-information {
+    width: 100%;
+    height: 686px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.shop-informsation-wrapper {
+    display: flex;
+    margin-bottom: 120px;
+
+}
+
+.shop-information-ttl {
+    width: 354px;
+    height: 51px;
+    margin: 0 auto;
+    font-family: Poppins;
+    font-weight: bold;
+    line-height: 1.52;
+}
+
+.shop-information-after::after {
+    content: '';
+    width: 40px;
+    display: block;
+    border-bottom: 1px solid #2b2b2b;
+    position: absolute;
+    top: 155px;
+    left: 460px; 
+}
+
+.shop-informsation_table {
+    width: 432px;
+    height: 320px;
+    margin-left: 48px;
+}
+
+.shop-informsation_table tr {
+    display: flex;
+    margin-left: 40px;
+}
+
+.adress-container {
+    margin-top: 32px;
+    height: 64px;
+}
+
+.adress {
+    display: block;
+    width: 80px;
+    height: 64px;
+    border-right: 1px solid #A0A0A0 ;
+    margin-right: 16px;
+}
+
+.adress-txt {
+    display: block;
+    width: 219px;
+    height: 45px;
+    line-height: 1.6;
+}
+
+.tel-container {
+    margin: 12px 0;
+}
+
+.tel {
+    display: block;
+    width: 80px;
+    height: 32px;
+    border-right: 1px solid #A0A0A0 ;
+    margin-right: 16px;
+}
+
+.hour-ttl {
+    display: block;
+    width: 80px;
+    height: 64px;
+    border-right: 1px solid #A0A0A0 ;
+    margin: 0 16px 12px 0;
+}
+
+.hour {
+    line-height: 1.6;
+}
+
+.access {
+    display: block;
+    width: 80px;
+    height: 64px;
+    border-right: 1px solid #A0A0A0 ;
+    margin: 0 16px 12px 0;
+}
+
+.contact {
+    width: 1280px;
+    height: 450px;
+    transform: translatex(-160px);
+    position: relative;
+    background-image: url(../img/contact_us.png);
+}
+
+.contact-ttl {
+    width: 212px;
+    height: 51px;
+    margin: 0 auto ;
+    padding-top: 80px;
+    padding-bottom: 57px;
+    font-family: Poppins;
+    line-height: 1.52;
+}
+
+.contact-after::after {
+    content: '';
+    width: 40px;
+    display: block;
+    border-bottom: 1px solid #2b2b2b;
+    position: absolute;
+    top: 155px;
+    left: 620px; 
+}
+
+.contact-txt {
+    text-align: center;
+   line-height: 1.8;
+   font-size: 16px;
+   letter-spacing: 1.4;
+   color: #2b2b2b;
+   font-family: Myriad Pro,sans-serif;
+   width: 541px;
+   height: 43px;
+   margin: 50px auto 40px;
+}
+
+.btn {
+    width: 360px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.btn__contact {
+    height: 80px;
+    position: relative;
+}
+
+.btn__contact p {
+    width: 120px;
+    height: 80px;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 133px;
+    /* padding-left: 133px; */
+    /* margin: 0 auto; */
+    /* line-height: 80px; */
+    /* text-align: center; */
+}
+
+.btn__contact::before,
+.btn__contact::after {
+  content: '';
+  position: absolute;
+  border-radius: 2px;
+}
+.btn__contact::before {
+  top: 30px;
+  left: 79px;
+  width: 30px;
+  height: 20px;
+  border: 1px solid #707070;
+}
+.btn__contact::after {
+  top: 21px;
+  left: 84px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #707070;
+  border-bottom: 1px solid #2b2b2b;
+  transform: rotate(45deg);
+}
+
+.copyright {
+    width: 960px;
+    text-align: center;
+}
